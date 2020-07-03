@@ -1,0 +1,11 @@
+.Menu {
+
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-left: 20px;
+    height: 100vh;
+    border-right: solid;
+    border-right-color: gray;
+    border-width: 1px;
+}

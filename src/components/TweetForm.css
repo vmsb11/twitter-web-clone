@@ -1,0 +1,87 @@
+.TweetForm {
+    
+    display: flex;
+    flex: 5;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.TweetForm img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.TweetForm .ImageDetail {
+    
+    flex: 1;
+    margin-right: 1px;
+}
+
+.TweetForm .Form {
+
+    flex: 9;
+}
+
+.TweetForm .Form .FormOptions {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.TweetForm .Form .FormOptions .TweetOptions {
+
+    display: flex;        
+}
+
+.TweetForm .Form .FormOptions .TweetSend {
+
+    display: flex;
+}
+
+a.LinkImage:link {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkImage:visited {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkImage:active {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkImage:hover {text-decoration: none; font-size: 18px; color: #36AAF7;}
+
+a.LinkGif:link {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkGif:visited {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkGif:active {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkGif:hover {text-decoration: none; font-size: 18px; color: #36AAF7;}
+
+a.LinkVote:link {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkVote:visited {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkVote:active {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkVote:hover {text-decoration: none; font-size: 18px; color: #36AAF7;}
+
+a.LinkSmile:link {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkSmile:visited {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkSmile:active {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkSmile:hover {text-decoration: none; font-size: 18px; color: #36AAF7;}
+
+a.LinkProgramer:link {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkProgramer:visited {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkProgramer:active {text-decoration: none; font-size: 18px; color: #36AAF7;} 
+a.LinkProgramer:hover {text-decoration: none; font-size: 18px; color: #36AAF7;}
+
+.TweetForm hr {
+
+    background-color: gray;
+    border: none;
+    height: 5px;
+    width: 100%;
+}
+
+textarea {
+
+    font-weight: 100;
+    font-size: 22px;
+    width: 100%;
+    outline: 0;
+    background-color: #252626;
+    border-width: 0 0 0 0;
+    margin-right: 20px;
+    color: #EFF1F2;
+}

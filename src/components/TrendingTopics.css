@@ -1,0 +1,42 @@
+.TrendingTopics {
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    flex-direction: column;
+    background-color: #252626;
+    border-radius: 15px;
+}
+
+.TrendingTopics .Header {
+
+    margin-top: 15px;
+}
+
+.TrendingTopics .Header > span {
+
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.TrendingTopics hr {
+
+    background-color: gray;
+    border: none;
+    height: 1px;
+    width: 100%;
+}
+
+.TrendingTopics .More {
+
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+a.LinkMore:link {text-decoration: none; font-size: 15px; color: #229FFF;} 
+a.LinkMore:visited {text-decoration: none; font-size: 15px; color: #229FFF;} 
+a.LinkMore:active {text-decoration: none; font-size: 15px; color: #229FFF;} 
+a.LinkMore:hover {text-decoration: none; color: #229FFF; font-size: 15px;}

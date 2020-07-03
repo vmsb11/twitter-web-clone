@@ -1,0 +1,45 @@
+.MenuItem {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.MenuItem .Label {
+
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0px;
+    height: 15px;
+}
+
+.MenuItem .LabelSelected {
+
+    color: #229FFF;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0px;
+    height: 15px;
+}
+
+.MenuItem i {
+
+    margin-right: 20px;
+}
+
+.MenuItem a {
+
+    line-height: 0px;
+    height: 15px;
+}
+
+
+a.Link:link {text-decoration: none; font-size: 22px; font-weight: bold; color: white;} 
+a.Link:visited {text-decoration: none; font-size: 22px; font-weight: bold; color: white;} 
+a.Link:active {text-decoration: none; font-size: 22px; font-weight: bold; color: white;} 
+a.Link:hover {text-decoration: none; color: #229FFF; font-size: 22px; font-weight: bold;}
+
+a.LinkSelected:link {text-decoration: none; font-size: 22px; font-weight: bold; color: #229FFF;} 
+a.LinkSelected:visited {text-decoration: none; font-size: 22px; font-weight: bold; color: #229FFF;} 
+a.LinkSelected:active {text-decoration: none; font-size: 22px; font-weight: bold; color: #229FFF;} 
+a.LinkSelected:hover {text-decoration: none; color: #229FFF; font-size: 22px; font-weight: bold;}

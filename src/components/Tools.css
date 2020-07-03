@@ -1,0 +1,9 @@
+.Tools {
+
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    border-left: solid;
+    border-left-color: gray;
+    border-width: 1px;
+}

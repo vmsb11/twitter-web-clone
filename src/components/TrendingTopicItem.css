@@ -1,0 +1,45 @@
+.TrendingTopicItem {
+    display: flex;
+    background-color: #252626;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.TrendingTopicItem img {
+    border-radius: 15px;
+    width: 64px;
+    height: 64px;
+}
+
+.TrendingTopicItem .ImageDetail {
+
+    flex: 1;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.TrendingTopicItem .Topic {
+
+    flex: 6;
+    display: flex;
+    flex-direction: column;    
+    margin-left: 15px;
+}
+
+.TrendingTopicItem .Topic .Title {
+
+    line-height: 0px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+.TrendingTopicItem .Topic .Description {
+
+    font-weight: bold;
+    font-size: 16px;
+    color: white;    
+}

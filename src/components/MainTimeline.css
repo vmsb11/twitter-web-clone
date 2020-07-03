@@ -1,0 +1,16 @@
+.MainTimeline {
+    
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.MainTimeline hr {
+
+    background-color: gray;
+    border: none;
+    height: 1px;
+    width: 100%;
+}

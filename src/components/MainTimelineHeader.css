@@ -1,0 +1,24 @@
+.MainTimelineHeader {
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainTimelineHeader .Title {
+
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    color: white;
+}
+
+.MainTimelineHeader .Moment {
+
+    
+}

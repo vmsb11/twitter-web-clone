@@ -1,0 +1,44 @@
+.TweetContent {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+}
+
+.TweetContent .Content p {
+
+    color: white;
+    font-size: 16px;
+}
+
+.TweetContent hr {
+
+    border-color: gray;
+    width: 100%;
+}
+
+.TweetContent .AccountDetail {
+
+    display: flex;
+}
+
+.TweetContent .AccountDetail .Name {
+
+    font-weight: bold;
+    line-height: 0px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.TweetContent .AccountDetail .User {
+
+    color: gray;
+    line-height: 0px;
+    margin-right: 10px;
+}
+
+.TweetContent .AccountDetail .Date {
+
+    color: gray;
+    line-height: 0px;
+    margin-right: 10px;
+}
